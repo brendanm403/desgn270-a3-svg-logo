@@ -2,8 +2,16 @@
   display: block;
   margin: 5rem auto;
   max-width: 15rem;
+  
+  transition: 1s;
 }
 
 .chocolate-chips {
   fill: #000;
+}
+
+.whole-cookie:hover {
+  max-width: 20rem;
+
+  filter: drop-shadow(0 0 2rem hsl(40, 56%, 15%));
 }
