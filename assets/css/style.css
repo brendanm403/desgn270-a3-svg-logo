@@ -1,3 +1,7 @@
+body {
+  background-color: #6b6767;
+}
+
 .whole-cookie {
   display: block;
   margin: 5rem auto;
@@ -12,7 +16,7 @@
 
 .whole-cookie:hover {
   max-width: 20rem;
-  
+
   transform: rotate(-1turn);
   filter: drop-shadow(0 0 2rem hsl(40, 56%, 15%));
 }
